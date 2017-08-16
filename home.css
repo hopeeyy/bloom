@@ -1,0 +1,47 @@
+
+.parallax {
+    /* The image used */
+    background-image: url("https://www.what-dog.net/Images/faces2/scroll003.jpg");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+margin-top: 15%;
+color: black;
+font-size: 800%;
+margin-left: 35%;
+font-family: sans-serif;
+}
+
+div.scrollmenu {
+    background-color: black;
+    overflow: auto;
+    white-space: nowrap;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 35px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #202021;
+
+}
+body, html {
+  height: 200%;
+}
+
