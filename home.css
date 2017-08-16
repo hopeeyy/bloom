@@ -1,21 +1,22 @@
 
 .parallax {
     /* The image used */
-    background-image: url("https://www.what-dog.net/Images/faces2/scroll003.jpg");
+    background-image: url("http://www.wallcoo.net/flower/flower_photography/images/professional_lower_photography_162571.jpg");
     /* Full height */
-    height: 17%;
+    height: 23%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 }
 
 h1{
 /*margin-top: 0%;*/
 color: black;
 font-size: 800%;
-margin-left: 35%;
+/*margin-left: 35%;*/
 font-family: sans-serif;
 }
 
@@ -63,7 +64,7 @@ a:hover{
   background-color: #F0C1B6;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  margin-top:50px; 
+  margin-top:50px;
 
 }
 .dropdown:hover .dropdown-content{
@@ -74,6 +75,30 @@ a:hover{
   display: block;
 }
 
+p{
+  font-family: : sans-serif
+}
+
+div.scrollmenu {
+    background-color: black;
+    overflow: auto;
+    white-space: nowrap;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 35px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #202021;
 
 }
 body, html {
@@ -89,6 +114,10 @@ html {
   box-sizing: border-box;
 
 }
+
+/*h1{
+  margin-left: 27%;
+}*/
 
 *, *:before, *:after {
   box-sizing: inherit;
