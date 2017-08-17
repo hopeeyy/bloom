@@ -1,4 +1,3 @@
-
 .parallax {
     /* The image used */
     background-image: url("http://www.wallcoo.net/flower/flower_photography/images/professional_lower_photography_162571.jpg");
@@ -62,7 +61,7 @@ a:hover{
   display: none;
   position: absolute;
   background-color: #F0C1B6;
-  min-width: 220px;
+  min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   margin-top:50px;
 
@@ -79,6 +78,28 @@ p{
   font-family: : sans-serif
 }
 
+div.scrollmenu {
+    background-color: black;
+    overflow: auto;
+    white-space: nowrap;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 35px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #202021;
+
+}
 body, html {
   height: 200%;
 }
@@ -103,17 +124,13 @@ html {
 
 .column {
   float: left;
-  width: 33.3%;
+  width: 25%;
   margin-bottom: 16px;
   padding: 0 8px;
+  display: inline;
+
 }
 
-.columns {
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-  float: left;
-}
 
 @media (max-width: 650px) {
   .column {
@@ -124,16 +141,22 @@ html {
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: inline;
+
 }
 
 .container {
   padding: 0 16px;
+  text-align: center;
+  display: inline;
 }
 
 .container::after, .row::after {
   content: "";
   clear: both;
   display: table;
+  text-align: center;
+
 }
 
 .title {
