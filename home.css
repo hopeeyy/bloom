@@ -39,7 +39,7 @@ nav>ul>li {
   float: left;
   position: relative;
 }
-a{
+a#pink{
   padding: 15px 70px;
   color: #fff;
   text-decoration: none;
@@ -47,7 +47,7 @@ a{
 
 
 }
-a:hover{
+a#pink:hover{
   background-color: #F0C1B6;
   color: black;
 
@@ -70,7 +70,7 @@ a:hover{
   display: block;
 
 }
-.dropdown-content a:hover{
+.dropdown-content a#pink:hover{
   display: block;
 }
 
@@ -88,7 +88,7 @@ div.scrollmenu {
     font-family: sans-serif;
 }
 
-div.scrollmenu a {
+div.scrollmenu a#pink {
     display: inline-block;
     color: white;
     text-align: center;
@@ -96,7 +96,7 @@ div.scrollmenu a {
     text-decoration: none;
 }
 
-div.scrollmenu a:hover {
+div.scrollmenu a#pink:hover {
     background-color: #202021;
 
 }
@@ -148,7 +148,7 @@ html {
 .container {
   padding: 0 16px;
   text-align: center;
-  display: inline;
+  /* display: inline;*/
 }
 
 .container::after, .row::after {
@@ -163,9 +163,9 @@ html {
   color: grey;
 }
 
-i{
+.fa {
   color: black;
-  font-size: 80px;
+  font-size: 20px;
   width: 30px;
   text-align: center;
   text-decoration: none;
