@@ -32,7 +32,7 @@ nav>ul>li {
   float: left;
   position: relative;
 }
-a{
+a#pink{
   padding: 15px 70px;
   color: #fff;
   text-decoration: none;
@@ -40,7 +40,7 @@ a{
 
 
 }
-a:hover{
+a#pink:hover{
   background-color: #F0C1B6;
   color: black;
 
