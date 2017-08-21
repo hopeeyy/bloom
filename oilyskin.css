@@ -1,17 +1,5 @@
-h1{
-/*margin-top: 0%;*/
-color: rgb(251,95,72);
-font-size: 1000%;
-margin-top: :15%;
-/*margin-left: 35%;*/
-font-family: sans-serif;
-}
 
-h2{
-  font-size: 200%;
-  font-family: sans-serif;
-  margin-bottom: 5%;
-}
+/* start of dropdown css */
 ul{
   list-style-type: none;
   margin: 0;
@@ -54,7 +42,7 @@ a:hover{
   display: none;
   position: absolute;
   background-color: #F0C1B6;
-  min-width: 160px;
+  min-width: 220px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   margin-top:50px;
 
@@ -66,39 +54,4 @@ a:hover{
 .dropdown-content a:hover{
   display: block;
 }
-
-div.scrollmenu {
-    background-color: black;
-    overflow: auto;
-    white-space: nowrap;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    font-family: sans-serif;
-}
-
-div.scrollmenu a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 35px;
-    text-decoration: none;
-}
-
-div.scrollmenu a:hover {
-    background-color: #202021;
-
-}
-body, html {
-  height: 200%;
-}
-/* meet the team css */
-.header {
-  font-style: impact;
-  font-size: .5em}
-
-
-html {
-  box-sizing: border-box;
-
-}
+ /* end of drop down menu css */
