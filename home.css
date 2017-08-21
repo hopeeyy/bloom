@@ -1,6 +1,6 @@
 .parallax {
     /* The image used */
-    background-image: url("http://www.wallcoo.net/flower/flower_photography/images/professional_lower_photography_162571.jpg");
+    background-image: ;
     /* Full height */
     height: 23%;
     /* Create the parallax scrolling effect */
@@ -28,7 +28,7 @@ ul{
   width: 100%;
   font-family: sans-serif;
   font-size: 20px;
-  background-color: black;
+  background-color: #C33735
 }
 ul::after{
   content: '';
