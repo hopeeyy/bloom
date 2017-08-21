@@ -5,13 +5,15 @@ font-size: 1000%;
 margin-top: :15%;
 /*margin-left: 35%;*/
 font-family: sans-serif;
+margin-left: 50px;
 }
 
 h2{
   font-size: 200%;
   font-family: sans-serif;
-  margin-bottom: 5%;
   width:600px;
+  margin-left: 50px;
+  margin-top: -60px;
 }
 ul{
   list-style-type: none;
@@ -22,7 +24,7 @@ ul{
   width: 100%;
   font-family: sans-serif;
   font-size: 20px;
-  background-color: black;
+  background-color: #C33725;
   z-index: 10000;
 }
 ul::after{
@@ -41,15 +43,13 @@ a{
   display: block;
   z-index: 5;
   position: relative;
-
-
-
 }
+
 a:hover{
   background-color: #F0C1B6;
   color: black;
-
 }
+
 .dropdown{
   display: inline-block;
   position: relative;
@@ -98,10 +98,10 @@ div.scrollmenu a:hover {
     background-color: #202021;
 
 }
-body, html {
+/*body, html {
   height: 200%;
-}
-/* meet the team css */
+}*/
+
 .header {
   font-style: impact;
   font-size: .5em}
@@ -126,3 +126,4 @@ img {
 a#white:hover{
   background-color: white;
 }
+
