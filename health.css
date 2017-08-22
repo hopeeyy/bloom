@@ -24,7 +24,7 @@ ul{
   width: 100%;
   font-family: sans-serif;
   font-size: 20px;
-  background-color: #C33725;
+  background-color: black;
   z-index: 10000;
 }
 ul::after{
