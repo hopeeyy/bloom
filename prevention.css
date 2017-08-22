@@ -1,0 +1,183 @@
+body{
+  background-color: #f4a460;
+}
+#blurb{
+  margin-top: 10%;
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+}
+h1,h2{
+  font-family: 'Amatic SC', cursive;
+}
+p{
+  font-family: 'Amatic SC', cursive;
+  font-size: 135%;
+}
+#imp{
+  visibility: hidden;
+}
+#lena {
+  visibility: hidden;
+}
+#iud{
+  visibility: hidden;
+}
+#patch{
+  visibility: hidden;
+}
+#ring{
+  visibility: hidden;
+}
+#shot{
+  visibility: hidden;
+}
+#pill {
+   border: 1px solid green ;
+   width: 25%;
+   background-color: orange;
+   margin-left: 35%;
+   margin-top: -18.47%;
+}
+.boxed1{
+  border: 1px solid green ;
+  width: 25%;
+  background-color: #ffc87c;
+  margin-top: 10%;
+  margin-left: 3%;
+}
+/*#pill{
+  width:25%
+}*/
+.boxed2{
+  border: 1px solid green;
+  width:27%;
+  margin-left: 33%;
+  margin-top: -26.38%;
+  background-color: #ffc87c;
+}
+#implant{
+  border: 1px solid green;
+  background-color: orange;
+  width:25%;
+  margin-left: 37%;
+  margin-top: -18.47%;
+}
+.boxed3{
+  border: 1px solid green;
+  width: 31%;
+  margin-left: 65%;
+  margin-top: -26.38%;
+  background-color: #ffc87c;
+}
+#IUD{
+  border: 1px solid green;
+  background-color: orange;
+  width: 29%;
+  margin-left: 35%;
+  margin-top: -18.45%;
+}
+.boxed4{
+  border: 1px solid green;
+  width: 27%;
+  background-color: #ffc87c;
+  margin-top: 4%;
+  margin-left: 3%;
+}
+#PATCH{
+  border: 1px solid green;
+  width: 25%;
+  background-color: orange;
+  margin-top: -18.45%;
+  margin-left: 35%;
+}
+.boxed5{
+  border: 1px solid green;
+  width: 25%;
+  margin-left: 35%;
+  margin-top: -28.48%;
+  background-color: #ffc87c;
+}
+#RING{
+  border: 1px solid green;
+  background-color: orange;
+  width: 25%;
+  margin-left: 35%;
+  margin-top: -18.48%;
+}
+.boxed6{
+  border: 1px solid green;
+  width: 30%;
+  margin-left: 65%;
+  margin-top: -28.38%;
+  background-color: #ffc87c;
+}
+#SHOT{
+  border: 1px solid green;
+  background-color: orange;
+  width: 33.40%;
+  margin-left: 35%;
+  margin-top: -18.48%;
+}
+#condom{
+  margin-top: -5%;
+  height: 500px;
+  width:600px;
+  float:right;
+  margin-right: 3%;
+}
+/* start of dropdown css */
+ul{
+  list-style-type: none;
+  margin: 0;
+  top: 0;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: black;
+}
+ul::after{
+  content: '';
+  clear: both;
+  display: block;
+}
+nav>ul>li {
+  float: left;
+  position: relative;
+}
+a#pink{
+  padding: 15px 70px;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+
+
+}
+a#pink:hover{
+  background-color: #F0C1B6;
+  color: black;
+
+}
+.dropdown{
+  display: inline-block;
+  position: relative;
+
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #F0C1B6;
+  min-width: 220px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-top:50px;
+
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+
+}
+.dropdown-content a:hover{
+  display: block;
+}
+ /* end of drop down menu css */

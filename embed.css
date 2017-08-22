@@ -1,44 +1,3 @@
-#blurb{
-  margin-top: 15%;
-  text-align: center;
-  font-family: 'Amatic SC', cursive;
-}
-body {
-  background-color: #DAF7A6;
-}
-#pinkrect{
-  background-color: pink;
-  height:300px;
-  width :90%;
-  margin: auto;
-  display: block;
-  position: relative;
-}
-#icon1 {
-  position: absolute;
-  margin-top: -9%;
-  margin-left: -5%;
-  width:600px;
-  height:450px;
-  /*text-align: center;*/
-}
-  /*font-family: 'Amatic SC', cursive;*/
-#icon2{
-  position: absolute;
-  margin-top: 3%;
-  margin-left: 40%;
-  width:200px;
-  height:220px;
-}
-#icon3{
-  position:absolute;
-  margin-top: 4%;
-  margin-left: 75%;
-  width:200px;
-  height:200px;
-}
-
-/* start of dropdown css */
 ul{
   list-style-type: none;
   margin: 0;
@@ -94,3 +53,10 @@ a#pink:hover{
   display: block;
 }
  /* end of drop down menu css */
+h3{
+  margin-top: 10%;
+  align-content: center;
+}
+body{
+  background-color: #DBF6F7;
+}

@@ -1,45 +1,62 @@
-#blurb{
-  margin-top: 15%;
+.header{
+  margin-top: 10%;
+  position: absolute;
+  bottom: 0;
   text-align: center;
   font-family: 'Amatic SC', cursive;
 }
-body {
-  background-color: #DAF7A6;
+#knowbanner{
+  width: 100%;
+  height:300px
 }
-#pinkrect{
-  background-color: pink;
-  height:300px;
-  width :90%;
-  margin: auto;
-  display: block;
+.bannerpills{
+  margin-top: 10%;
   position: relative;
+  /*width: 100%;*/
 }
-#icon1 {
+.blurb{
+  /*margin-top: 10%;
   position: absolute;
-  margin-top: -9%;
-  margin-left: -5%;
-  width:600px;
-  height:450px;
-  /*text-align: center;*/
+  bottom: 0;*/
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
 }
-  /*font-family: 'Amatic SC', cursive;*/
-#icon2{
-  position: absolute;
-  margin-top: 3%;
-  margin-left: 40%;
-  width:200px;
-  height:220px;
+h1,h2,h3,{
+  font-family: 'Amatic SC', cursive;
 }
-#icon3{
-  position:absolute;
-  margin-top: 4%;
-  margin-left: 75%;
-  width:200px;
-  height:200px;
+p{
+  font-family: 'Amatic SC', cursive;
 }
-
+ .tips{
+    font-family: 'Amatic SC', cursive;
+}
+#text{
+    border-bottom: 2px solid red;
+    font-family: 'Amatic SC', cursive;
+}
+#text2{
+  border-bottom: 4px solid orange;
+  font-family: 'Amatic SC', cursive;
+}
+#box1{
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+}
+table{
+  font-family: 'Amatic SC', cursive;
+  border-collapse: collapse;
+  width: 80%;
+}
+td,th{
+  border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
 /* start of dropdown css */
-ul{
+ ul{
   list-style-type: none;
   margin: 0;
   top: 0;
