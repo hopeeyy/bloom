@@ -107,7 +107,7 @@ a#pink{
 }
 a#pink:hover{
   background-color: #F0C1B6;
-  color: black;
+  color: white;
 }
 .dropdown{
   display: inline-block;
@@ -118,7 +118,7 @@ a#pink:hover{
   display: none;
   position: absolute;
   background-color: #F0C1B6;
-  min-width: 220px;
+  min-width: 240px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   margin-top:50px;
 
