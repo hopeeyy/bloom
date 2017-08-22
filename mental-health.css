@@ -6,6 +6,24 @@ font-size: 800%;
 font-family: sans-serif;
 }
 
+li{
+  font-family: sans-serif;
+}
+
+.left{
+  margin-top: 40px;
+  margin-left: 35px;
+  margin-right: 1000px;
+}
+.right{
+  font-family: sans-serif;
+  margin-left: 800px;
+  margin-top: -320px;
+}
+
+h4{
+  font-weight: bold;
+}
 ul{
   list-style-type: none;
   margin: 0;
@@ -26,7 +44,7 @@ nav>ul>li {
   float: left;
   position: relative;
 }
-a{
+a#pink{
   padding: 15px 70px;
   color: #fff;
   text-decoration: none;
@@ -34,8 +52,8 @@ a{
 
 
 }
-a:hover{
-  background-color: #F0C1B6;
+a#pink:hover{
+  background-color: ;
   color: black;
 
 }
@@ -174,4 +192,8 @@ i{
 
 .button:hover {
   background-color: #555;
+}
+#together{
+display: inline;
+
 }
