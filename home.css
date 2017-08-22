@@ -84,9 +84,10 @@ a#pink:hover{
   display: none;
   position: absolute;
   background-color: #EFC280;
-  min-width: 160px;
+  min-width: 240px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   margin-top:50px;
+  text-align: left;
 
 }
 .dropdown:hover .dropdown-content{
