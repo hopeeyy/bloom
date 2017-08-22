@@ -33,7 +33,7 @@ ul{
   width: 100%;
   font-family: sans-serif;
   font-size: 20px;
-  background-color: #C33725;
+  background-color: black;
 }
 ul::after{
   content: '';
