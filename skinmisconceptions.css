@@ -1,7 +1,31 @@
-h1{ font-family: 'Amatic SC', cursive;
+.dropdownmen {
+  z-index: 1;
+}
+.title{ font-family: 'Amatic SC', cursive;
    font-weight: lighter;
-   font-size: 8em;
-   margin-bottom: 0;}
+   font-size: 3em;
+   text-align: center;
+   margin-top: 100px;}
+
+.title:hover {
+   color: rgba(240, 193, 182,0.9);
+}
+
+.titlelists:hover {
+   color: rgba(240, 193, 182,0.9);
+}
+.misconceptions {
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-left: 40px;
+  margin-right: 100px;
+  column-count: 2;
+  column-rule-style: dotted;
+  column-fill: auto;
+  column-gap: 30px;
+
+}
+
 /* start of dropdown css */
 ul{
   list-style-type: none;
