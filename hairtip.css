@@ -135,7 +135,7 @@ a#pink:hover{
 .dropdown-content{
   display: none;
   position: absolute;
-  background-color: #EFC280;
+  background-color:  #F0C1B6;
   min-width: 240px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   margin-top:50px;
