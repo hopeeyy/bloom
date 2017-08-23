@@ -1,34 +1,39 @@
-h2{
-  margin-top: 10%;
+h2,h1{
   text-align: center;
   font-family: 'Amatic SC', cursive;
+  font-size: 180%;
+  font-weight: bold;
 }
 h3{
   font-family: 'Amatic SC', cursive;
+  font-size: 180%;
+  font-weight: bold;
   /*margin-top: -10%;*/
 }
-.leftxt{
-  width: 50%;
-  position: relative;
-}
-.vertical_line{
-  height:150px;
-   width:1px;
-   background:#000;
-   margin-left: 50%;
-   position: absolute;
- }
-p{
+h1{
+  margin-top: 10%;
   font-family: 'Amatic SC', cursive;
-  font-size: 130%;
+}
+.split{
+font-family: sans-serif;
+column-count: 2;
+column-rule-style: solid;
+column-fill: auto;
+column-gap: 32px;
+margin-left: 3%;
+}
+p{
+  font-family:sans-serif;
+  /*font-size: 1%;*/
 }
 .psteps{
-    font-family: 'Amatic SC', cursive;
-    font-size: 130%
+    font-family: sans-serif;
+    margin-left: 4%;
+    /*font-size: 130%*/
 }
 .textbox{
 text-align: center;
-font-family: 'Amatic SC', cursive;
+font-family:sans-serif;
 }
 /* start of dropdown css */
 ul{
