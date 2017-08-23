@@ -1,8 +1,15 @@
 body{
   background-color: #fffff0;
 }
-#blurb{
+#blurbp{
   margin-top: 10%;
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  font-weight: bold;
+  font-size: 200%;
+  color: pink;
+}
+#blurb{
   font-family: 'Amatic SC', cursive;
   text-align: center;
 }
