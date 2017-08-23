@@ -26,7 +26,7 @@ font-family: sans-serif;
     transition: opacity 0.6s;
     margin-top: -10%;
 }
-.alert.info {background-color: #FOC1B6;
+.alert.info {background-color: #F0C1B6;
   float: right;
 }
 .closebtn {
@@ -83,7 +83,7 @@ a#pink:hover{
 .dropdown-content{
   display: none;
   position: absolute;
-  background-color: #FOC1B6;
+  background-color: #F0C1B6;
   min-width: 240px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   margin-top:50px;
