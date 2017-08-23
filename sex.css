@@ -1,7 +1,8 @@
 #blurb{
-  margin-top: 15%;
+   margin-top: 15%;
   text-align: center;
-  font-family: 'Amatic SC', cursive;
+  font-family: sans-serif;
+  font-weight: lighter;
 }
 body {
   background-color: #fffff0;
