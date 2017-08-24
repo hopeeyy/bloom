@@ -1,13 +1,11 @@
 .header{
   color:pink;
-  font-weight:bold;
-  font-size:500%;
   margin-top: 10%;
   position: absolute;
   bottom: 0;
   text-align: center;
   font-family: 'Amatic SC', cursive;
-  font-size: 200%;
+  font-size: 500%;
   font-weight: bold;
 }
 #knowbanner{
