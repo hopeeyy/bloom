@@ -27,10 +27,14 @@
    font-weight: normal;
    font-size:135%;
 }
-h1,h2,h3,{
+h2,h3,{
   font-family: 'Amatic SC', cursive;
   font-size: 180%;
   font-weight: bold;
+}
+h1{
+  color: pink;
+  font-size: 300%;
 }
 p{
   font-family:sans-serif;
